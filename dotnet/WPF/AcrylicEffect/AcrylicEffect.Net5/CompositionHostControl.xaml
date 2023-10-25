@@ -31,9 +31,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     d:DesignHeight="600"
     d:DesignWidth="900"
+    Background="Red"
     Loaded="CompositionHostControl_Loaded"
     mc:Ignorable="d">
-    <Grid>
+    <Grid Margin="10">
         <Image Source="Assets/Lake.jpg" />
         <Border Name="CompositionHostElement" />
     </Grid>
